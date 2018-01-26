@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "973889592242",
+    "firebase_url": "https://ihelpsixtwo.firebaseio.com",
+    "project_id": "ihelpsixtwo",
+    "storage_bucket": "ihelpsixtwo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973889592242:android:7a4e7b07df00babe",
+        "android_client_info": {
+          "package_name": "com.example.michaelmsimon.ihelpseven"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "973889592242-0h4eekkua48hejd62vjb3ju32j5k3chr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.michaelmsimon.ihelpseven",
+            "certificate_hash": "b398d9dabf7948ea84969f48c4112da6ecbed352"
+          }
+        },
+        {
+          "client_id": "973889592242-klogu5osu1nknhktofihbag5u2j1c7g2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDFd-Dr-iy36qlbi8Z4KDm2-Sd_dtDb5E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "973889592242-klogu5osu1nknhktofihbag5u2j1c7g2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

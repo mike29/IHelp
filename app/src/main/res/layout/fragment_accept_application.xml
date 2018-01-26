@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="5dp"
+    tools:context="com.example.michaelmsimon.ihelpseven.AcceptApplicationFragment">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="30dp"
+           android:background="#FFF"
+           android:orientation="horizontal"
+           android:paddingTop="5dp"
+           android:weightSum="3"
+
+           >
+
+           <LinearLayout
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:gravity="center_horizontal"
+               android:layout_weight="1">
+
+               <ImageButton
+                   android:id="@+id/imageButton5"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+
+
+                   android:adjustViewBounds="false"
+                   android:background="@mipmap/ic_person_pin_circle_black_48dp"
+                   android:textAlignment="center" />
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:gravity="center_horizontal"
+               android:layout_weight="1">
+
+               <ImageButton
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:background="@mipmap/ic_person_pin_circle_black_48dp"
+                   />
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:gravity="center_horizontal"
+               android:layout_weight="1">
+
+               <ImageButton
+                   android:id="@+id/imageButton"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:background="@mipmap/ic_person_pin_circle_black_48dp" />
+           </LinearLayout>
+       </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/applied_user_f_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Task Title"
+            android:padding="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Posted Date"
+            android:padding="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Liste av applicants"
+            android:padding="30dp"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Accept" />
+
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.example.michaelmsimon.ihelpseven.user.RegisterActivity">
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="IHelp"
+    android:textStyle="bold"
+    android:textSize="30sp"
+    android:gravity="center"
+    android:paddingTop="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The help is around"
+        android:textSize="14sp"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+       />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTER NEW USER"
+
+        android:textSize="14sp"
+        />
+
+    <EditText
+        android:id="@+id/eMailField"
+        android:hint="Email"
+        android:textColorHint="#969696"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/passField"
+        android:layout_width="match_parent"
+        android:hint="Password"
+        android:textColorHint="#969696"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/repPassField"
+        android:layout_width="match_parent"
+        android:hint="Repeat Password"
+        android:textColorHint="#969696"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:onClick="registerButtonClicked"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Have an account?"
+        android:textSize="13sp"
+        android:padding="2dp"
+        android:gravity="right"
+        android:paddingTop="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log in"
+        android:textSize="15sp"
+        android:padding="5dp"
+        android:gravity="right"
+        android:textColor="@color/colorPrimary"
+        android:onClick="toLoginActivity"
+        />
+</LinearLayout>

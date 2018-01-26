@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:layout_margin="5dp"
+    android:elevation="2dp"
+    app:cardUseCompatPadding="true"
+
+    >
+
+<LinearLayout
+android:orientation="horizontal"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+    android:weightSum="1"
+    android:layout_gravity="top"
+    android:background="#FFF"
+    >
+
+    <ImageView
+        android:id="@+id/imgTaskPosted"
+        android:layout_width="25dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="5dp"
+        android:adjustViewBounds="false"
+        android:background="@color/colorPrimary"
+        android:cropToPadding="false"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+         />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:layout_gravity="top"
+       >
+
+        <TextView
+            android:id="@+id/tvTaskTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Carpenter for my house"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="5dp"
+
+
+            />
+
+        <TextView
+            android:id="@+id/tvTaskCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Task Category"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingTop="5dp"
+
+            />
+
+        <TextView
+            android:id="@+id/tvTaskLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="posted Location"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:paddingTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/tvTaskPostedDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="posted date"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/tvTaskDisc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="5dp"
+            android:textSize="15sp"
+            android:text="Desciprion of the job will be displayed here. If you don't mind.
+Of course you have to think about it. Right?" />
+        <TextView
+            android:id="@+id/tvTaskPostedBy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="Posted By:"
+            android:textSize="12sp"
+
+            />
+        <TextView
+            android:id="@+id/userKeyHolder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text=""/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+    <!--the bottons fix the margin top-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_set"
+        android:layout_marginTop="200dp"
+
+
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apply"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:textColor="#191919"
+            android:layout_marginTop="5dp"
+            android:background="#FFF"
+            style="?android:attr/borderlessButtonStyle"
+            />
+
+        <View
+            android:paddingTop="6dp"
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="#d1d1d1" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Share"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:textColor="#191919"
+            android:layout_marginTop="5dp"
+            android:background="#FFF"
+            style="?android:attr/borderlessButtonStyle"/>
+
+    </LinearLayout>  <!--buttons end-->
+
+    </android.support.v7.widget.CardView>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.michaelmsimon.ihelpseven.user.UserProfile">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Gps locator"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/home"
+        android:icon="@mipmap/ic_home_white_48dp"
+        android:title="Home"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/profile_setting"
+        android:icon="@drawable/ic_edit_black_24dp"
+        android:title="Home"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/logout"
+        android:title="Logout"
+        app:showAsAction="never" />
+
+</menu>
+
+
+
+
+
